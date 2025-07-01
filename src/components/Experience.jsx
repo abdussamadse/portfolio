@@ -3,25 +3,15 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    company: "TechNova Solutions",
-    website: "https://technova.io",
-    location: "Remote - USA",
-    role: "Frontend Developer",
-    duration: "Jan 2024 – Present",
+    company: "Softvence Agency",
+    website: "https://softvence.com",
+    location: "Mohakhali, Dhaka - Bangladesh",
+    role: "Jr. MERN Stack Developer",
+    duration: "Sep 2024 – Present",
     description:
-      "Working on scalable React applications, collaborating with designers and backend developers to deliver responsive, performant UI.",
-    stack: ["React", "TailwindCSS", "TypeScript", "Framer Motion"],
+      "As a Full Stack Developer at Softvence Agency, I lead the development and maintenance of dynamic web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). I work closely with cross-functional teams to design, develop, test, and deploy scalable solutions that meet business needs.",
+    stack: ["React", "TailwindCSS", "TypeScript", "Next.js", "Node.js", "Express.js", "MongoDB"],
     current: true,
-  },
-  {
-    company: "CodeCraft Inc.",
-    website: "https://codecraft.dev",
-    location: "Lahore, Pakistan",
-    role: "Junior Web Developer",
-    duration: "Aug 2022 – Dec 2023",
-    description:
-      "Maintained production websites, refactored legacy code, and built reusable components using modern frontend tooling.",
-    stack: ["JavaScript", "React", "SCSS", "Git"],
   },
 ];
 

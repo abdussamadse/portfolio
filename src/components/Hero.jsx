@@ -47,7 +47,7 @@ const Hero = () => {
             }}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300 }}
-            className="bg-cyan-500 text-gray-900 font-bold py-3 px-8 rounded-lg text-lg transition-colors duration-300 hover:bg-cyan-400"
+            className="bg-cyan-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors duration-500 hover:bg-cyan-500"
           >
             View My Work
           </motion.a>

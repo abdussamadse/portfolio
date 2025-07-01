@@ -9,10 +9,13 @@ const Navbar = () => {
   const navLinks = [
     { to: "about", label: "About" },
     { to: "skills", label: "Skills" },
-    { to: 'experience', label: 'Experience' },
+    { to: "experience", label: "Experience" },
     { to: "projects", label: "Projects" },
     { to: "contact", label: "Contact" },
   ];
+
+  const linkClasses =
+    "relative text-gray-300 hover:text-cyan-400 transition-colors duration-300 cursor-pointer font-medium before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-cyan-400 before:transition-all before:duration-300 hover:before:w-full";
 
   return (
     <nav className="bg-gray-900/90 backdrop-blur-sm fixed w-full z-50 top-0 left-0 px-8 py-4">
@@ -22,9 +25,9 @@ const Navbar = () => {
           smooth={true}
           duration={300}
           offset={-80}
-          className="text-2xl font-bold text-cyan-400 cursor-pointer"
+          className="text-3xl font-bold text-cyan-400 cursor-pointer"
         >
-          AbdusSamad
+          Abdus Samad
         </Link>
 
         {/* Desktop Menu */}
@@ -36,7 +39,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={300}
                 offset={-80}
-                className="text-gray-300 hover:text-cyan-400 transition-colors cursor-pointer font-medium"
+                className={linkClasses}
               >
                 {link.label}
               </Link>
@@ -68,7 +71,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={300}
                 offset={-80}
-                className="text-gray-300 hover:text-cyan-400 transition-colors cursor-pointer"
+                className={linkClasses}
               >
                 {link.label}
               </Link>
