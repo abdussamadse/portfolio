@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     company: "Softvence Agency",
-    website: "https://softvence.com",
+    website: "https://softvence.agency",
     location: "Mohakhali, Dhaka - Bangladesh",
     role: "Jr. MERN Stack Developer",
     duration: "Sep 2024 – Present",

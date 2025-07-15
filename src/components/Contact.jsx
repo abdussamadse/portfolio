@@ -1,12 +1,14 @@
-import React from 'react';
-import AnimatedSection from './AnimatedSection';
-import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import React from "react";
+import AnimatedSection from "./AnimatedSection";
+import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <AnimatedSection id="contact">
-      <h2 className="text-4xl font-bold text-center mb-12 text-cyan-400">Get In Touch</h2>
+      <h2 className="text-4xl font-bold text-center mb-12 text-cyan-400">
+        Get In Touch
+      </h2>
 
       <div className="flex flex-col lg:flex-row gap-12 max-w-6xl mx-auto px-4">
         {/* Left Side - Contact Info with Animation */}
@@ -18,18 +20,57 @@ const Contact = () => {
           className="lg:w-1/2 space-y-6 text-gray-300"
         >
           <div>
-            <h3 className="text-2xl font-semibold text-cyan-400 mb-2">Contact Information</h3>
-            <p><span className="font-medium text-white">Email:</span> <a href="mailto:your.email@example.com" className="text-cyan-300 hover:underline">your.email@example.com</a></p>
-            <p><span className="font-medium text-white">Phone:</span> +880 1234 567 890</p>
-            <p><span className="font-medium text-white">Location:</span> Dhaka, Bangladesh</p>
-            <p><span className="font-medium text-white">Availability:</span> Open to freelance and full-time roles</p>
+            <h3 className="text-2xl font-semibold text-cyan-400 mb-2">
+              Contact Information
+            </h3>
+            <p>
+              <span className="font-medium text-white">Email:</span>{" "}
+              <a
+                href="mailto:abdussamadse@gmail.com"
+                className="text-cyan-300 hover:underline"
+              >
+                abdussamadse@gmail.com
+              </a>
+            </p>
+            <p>
+              <span className="font-medium text-white">Phone:</span> +880
+              1718292406
+            </p>
+            <p>
+              <span className="font-medium text-white">Location:</span>{" "}
+              Faridpur, Dhaka, Bangladesh
+            </p>
+            <p>
+              <span className="font-medium text-white">Availability:</span> Open
+              to freelance and full-time roles
+            </p>
           </div>
           <div>
-            <h3 className="text-2xl font-semibold text-cyan-400 mb-2">Connect With Me</h3>
+            <h3 className="text-2xl font-semibold text-cyan-400 mb-2">
+              Connect With Me
+            </h3>
             <div className="flex space-x-6 text-2xl">
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors"><FaGithub /></a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors"><FaLinkedin /></a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors"><FaTwitter /></a>
+              <a
+                href="https://github.com/abdussamadse"
+                className="text-gray-400 hover:text-cyan-400 transition-colors"
+                target="_blank"
+              >
+                <FaGithub />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/abdussamadse/"
+                className="text-gray-400 hover:text-cyan-400 transition-colors"
+                target="_blank"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="#"
+                className="text-gray-400 hover:text-cyan-400 transition-colors"
+                target="_blank"
+              >
+                <FaTwitter />
+              </a>
             </div>
           </div>
         </motion.div>
