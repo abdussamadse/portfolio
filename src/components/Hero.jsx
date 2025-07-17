@@ -9,7 +9,7 @@ const Hero = () => {
       id="hero"
       className="min-h-screen flex items-center justify-center px-6"
     >
-      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl gap-12">
+      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl gap-12 pt-32 sm:pt-0">
         {/* Left Section - Text */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
