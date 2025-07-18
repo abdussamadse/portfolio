@@ -1,13 +1,12 @@
-import React from "react";
 import AnimatedSection from "./AnimatedSection";
 import { motion } from "framer-motion";
 import {
   FaReact,
   FaNodeJs,
-  FaHtml5,
-  FaCss3Alt,
   FaJsSquare,
   FaGitAlt,
+  FaAws,
+  FaDocker,
 } from "react-icons/fa";
 import {
   SiMongodb,
@@ -15,14 +14,15 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiPrisma,
+  SiTypescript,
+  SiPostgresql,
 } from "react-icons/si";
 
 const frontendSkills = [
   { icon: <FaReact />, name: "React" },
   { icon: <SiNextdotjs />, name: "Next.js" },
   { icon: <FaJsSquare />, name: "JavaScript" },
-  { icon: <FaHtml5 />, name: "HTML5" },
-  { icon: <FaCss3Alt />, name: "CSS3" },
+  { icon: <SiTypescript />, name: "TypeScript" },
   { icon: <SiTailwindcss />, name: "Tailwind CSS" },
 ];
 
@@ -30,10 +30,14 @@ const backendSkills = [
   { icon: <FaNodeJs />, name: "Node.js" },
   { icon: <SiExpress />, name: "Express" },
   { icon: <SiMongodb />, name: "MongoDB" },
+  { icon: <SiPostgresql />, name: "PostgreSQL" },
   { icon: <SiPrisma />, name: "Prisma" },
 ];
 
-const toolSkills = [{ icon: <FaGitAlt />, name: "Git" }];
+const toolSkills = [
+  { icon: <FaGitAlt />, name: "Git" },
+  { icon: <FaAws />, name: "AWS" },
+];
 
 const containerVariants = {
   hidden: { opacity: 0 },
