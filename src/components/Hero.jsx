@@ -51,7 +51,7 @@ const typingSequence = [
 const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center px-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center w-full max-w-6xl gap-12 pt-32 sm:pt-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center w-full max-w-6xl gap-12 pt-28 sm:pt-0">
         {/* Left Section - Text */}
         <motion.div
           variants={containerVariants}
