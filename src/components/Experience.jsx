@@ -7,7 +7,7 @@ const experiences = [
     website: "https://softvence.agency",
     location: "Mohakhali, Dhaka - Bangladesh",
     role: "Jr. MERN Stack Developer",
-    duration: "Sep 2024 – Present",
+    duration: "Sep 2024 – Aug 2025",
     description:
       "As a Full Stack Developer at Softvence Agency, I lead the development and maintenance of dynamic web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). I work closely with cross-functional teams to design, develop, test, and deploy scalable solutions that meet business needs.",
     stack: ["React", "TailwindCSS", "TypeScript", "Next.js", "Node.js", "Express.js", "MongoDB"],
