@@ -5,13 +5,13 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const featuredProjects = [
   {
-    title: "Venue Booking Platform (Wedding Venues)",
+    title: "Real Estate Investment Platform",
     description:
-      "Developed a full-featured wedding venue booking platform with role-based access for customers and venue hosts. Implemented secure user authentication, host subscription plans with Stripe integration, and dynamic venue listings. Designed and built the backend architecture, including RESTful APIs for user management, booking logic, payment processing, and review systems. The application supports host dashboards, venue management, real-time availability, and automated email confirmations.",
+      "Created a platform for a real estate company where users can invest in, buy, and sell properties, and earn profits based on their investments. Developed secure role-based access for investors and admins, with dynamic dashboards showing ROI, active investments, and property portfolios.",
     imageUrl:
-      "https://res.cloudinary.com/doy45osdh/image/upload/v1752852726/venwed_tsojwi.png",
-    tags: ["React JS", "Tailwind CSS", "Express JS", "MongoDB", "Stripe"],
-    liveUrl: "https://client.venuhost.com",
+      "https://res.cloudinary.com/doy45osdh/image/upload/v1752852715/pride_my4mzd.png",
+    tags: ["React JS", "Tailwind CSS", "Express JS", "MongoDB"],
+    liveUrl: "https://synergyinvestinc.com/",
     githubUrl: "https://github.com/abdussamadse",
   },
   {
@@ -49,16 +49,7 @@ const otherProjects = [
     liveUrl: "http://archivevault.org",
     githubUrl: "https://github.com/abdussamadse",
   },
-  {
-    title: "Real Estate Investment Platform",
-    description:
-      "Created a platform for a real estate company where users can invest in, buy, and sell properties, and earn profits based on their investments. Developed secure role-based access for investors and admins, with dynamic dashboards showing ROI, active investments, and property portfolios.",
-    imageUrl:
-      "https://res.cloudinary.com/doy45osdh/image/upload/v1752852715/pride_my4mzd.png",
-    tags: ["React JS", "Tailwind CSS", "Express JS", "MongoDB"],
-    liveUrl: "https://synergyinvestinc.com/",
-    githubUrl: "https://github.com/abdussamadse",
-  },
+
   {
     title: "Smart Household E-Commerce Platform",
     description:

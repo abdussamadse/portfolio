@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import HeroImg from "../assets/hero.svg";
+import HeroImg from "../assets/hero.png";
 
 // Define animation variants for cleaner JSX
 const containerVariants = {
@@ -42,16 +42,17 @@ const imageVariants = {
 const typingSequence = [
   "A Full Stack Developer",
   2000,
-  "A MERN Stack Specialist",
-  2000,
-  "A Creative Problem Solver",
+  "Website and Mobile Apps Developer",
   2000,
 ];
 
 const Hero = () => {
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center px-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center w-full max-w-6xl gap-12 pt-28 sm:pt-0">
+    <section
+      id="hero"
+      className="min-h-screen flex items-center justify-center px-6"
+    >
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center w-full max-w-6xl gap-20 pt-28 sm:pt-0">
         {/* Left Section - Text */}
         <motion.div
           variants={containerVariants}
@@ -83,7 +84,7 @@ const Hero = () => {
             variants={itemVariants}
             className="text-lg md:text-xl text-gray-300 mb-8 max-w-xl mx-auto md:mx-0"
           >
-            I specialize in building exceptional, high-quality websites and
+            I specialize in building exceptional, high-quality websites and Mobile
             applications.
           </motion.p>
 
@@ -112,7 +113,7 @@ const Hero = () => {
           <motion.img
             src={HeroImg}
             alt="Web Development Illustration"
-            className="w-72 md:w-96 h-auto"
+            className="w-72 md:w-full h-auto"
             animate={{ y: [0, -15, 0] }} // A slightly more pronounced float
             transition={{
               repeat: Infinity,

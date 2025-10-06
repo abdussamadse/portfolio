@@ -1,13 +1,6 @@
 import AnimatedSection from "./AnimatedSection";
 import { motion } from "framer-motion";
-import {
-  FaReact,
-  FaNodeJs,
-  FaJsSquare,
-  FaGitAlt,
-  FaAws,
-  FaDocker,
-} from "react-icons/fa";
+import { FaReact, FaNodeJs, FaJsSquare, FaGitAlt, FaAws } from "react-icons/fa";
 import {
   SiMongodb,
   SiExpress,
@@ -17,9 +10,11 @@ import {
   SiTypescript,
   SiPostgresql,
 } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 
 const frontendSkills = [
   { icon: <FaReact />, name: "React" },
+  { icon: <TbBrandReactNative />, name: "React Native" },
   { icon: <SiNextdotjs />, name: "Next.js" },
   { icon: <FaJsSquare />, name: "JavaScript" },
   { icon: <SiTypescript />, name: "TypeScript" },

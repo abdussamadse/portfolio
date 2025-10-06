@@ -27,11 +27,11 @@ const Navbar = () => {
           offset={-80}
           className="flex flex-col leading-tight items-start cursor-pointer group"
         >
-          <span className="text-4xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 group-hover:scale-105 transition-transform duration-300">
-            AS
+          <span className="text-[31px] font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 group-hover:scale-105 transition-transform duration-300">
+            ABDUS SAMAD
           </span>
           <span className="text-sm font-medium text-gray-300 group-hover:text-cyan-400 transition-colors duration-300">
-            MERN Stack Developer
+            Website & Mobile Apps Developer
           </span>
         </Link>
 
